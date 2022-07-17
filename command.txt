@@ -1,0 +1,2 @@
+python deep_learning_object_detection.py --prototxt MobileNetSSD_deploy.prototxt.txt --model MobileNetSSD_deploy.caffemodel --image example1.jpg
+python deep_learning_object_detection_video.py --prototxt MobileNetSSD_deploy.prototxt.txt --model MobileNetSSD_deploy.caffemodel --video dog.mp4 
